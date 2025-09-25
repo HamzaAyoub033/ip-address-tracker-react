@@ -5,7 +5,8 @@ function TrackerDetails({ ipAddress, setIpLocation, setError, error }) {
   // ipify URL to access the location by Ip address
   const URL = "https://geo.ipify.org/api/v2/country,city";
   // const KEY = String(import.meta.env.VITE_IPIFY_API_KEY);
-  const KEY = "at_8bXGmXG7v1nY3r0k3r3b2b2b2b2b2";
+  // const KEY = "at_8bXGmXG7v1nY3r0k3r3b2b2b2b2b2";
+  const KEY    =  "at_e9toL6BVRta7SUx2dpUQTh2seq2kg";
 
 
   // Required States
