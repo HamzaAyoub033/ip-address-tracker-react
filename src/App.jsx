@@ -48,8 +48,8 @@ function App() {
         </div>
         <div className="absolute bottom-0 flex w-full items-center justify-center">
           <p className="text-slate-800" style={{border:'1px solid #708080', borderRadius:'3px', backgroundColor:'#555555', padding:'2px 12px', color:'#fff'}}>
-            Coded by{" "}
-            <a href="http://hamza-ayoub.netlify.app/" className="text-blue-600">
+            Made with &#10084; by{" "}
+            <a href="http://hamza-ayoub.netlify.app/" className="text-cyan-500 underline" target="_blank" rel="noreferrer">
               Hamza Ayoub
             </a>
             

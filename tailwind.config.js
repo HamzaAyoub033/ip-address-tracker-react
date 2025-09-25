@@ -8,8 +8,8 @@ export default {
         Dark_Gray: "hsl(0, 0%, 59%)",
       },
       backgroundImage: {
-        "hero-desktop": "url('./src/images/pattern-bg-desktop.jpg')",
-        "hero-mobile": "url('./src/images/pattern-bg-desktop.jpg')",
+        "hero-desktop": "url('/images/pattern-bg-desktop.jpg')",
+  "hero-mobile": "url('/images/pattern-bg-mobile.jpg')",
       },
       fontFamily: {
         "font-family": ["Rubik", "sans-serif"],
