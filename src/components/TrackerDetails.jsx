@@ -4,7 +4,9 @@ import { useEffect, useState } from "react";
 function TrackerDetails({ ipAddress, setIpLocation, setError, error }) {
   // ipify URL to access the location by Ip address
   const URL = "https://geo.ipify.org/api/v2/country,city";
-  const KEY = String(import.meta.env.VITE_IPIFY_API_KEY);
+  // const KEY = String(import.meta.env.VITE_IPIFY_API_KEY);
+  const KEY = "at_8bXGmXG7v1nY3r0k3r3b2b2b2b2b2";
+
 
   // Required States
   const [ipData, setIpData] = useState({});
